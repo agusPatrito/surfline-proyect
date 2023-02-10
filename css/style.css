@@ -108,14 +108,23 @@ main{
     font-weight: 200;
 }
 
-.featuredNews__element-2{   
+.featuredNews__element-2{
+    display: flex;
+    flex-direction: column; 
     width: 50%;
     height: 600px;
     background-image: url(/images/sustaintability.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    justify-content: center;
+    align-items: start;
     margin: 2px;
+
+}
+.featuredNews__element-2 h3{
+    font-size: 30px;
+    font-weight: 200;
 }
 footer{
     grid-area: footer;
