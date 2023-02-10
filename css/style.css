@@ -71,8 +71,52 @@ main{
 .mainBanner__title h1{
     font-size: 50px;
     padding-bottom: 20px;
+    font-weight: 300;
 }
 
+/*Featured News*/
+
+#featuredNews{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+
+.featuredNews__h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+
+.featuredNews__element-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 600px;
+    background-image: url(/images/featured-elements1.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    align-items: start;
+    justify-content: center;
+    margin: 2px;
+}
+
+.featuredNews__element-1 h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.featuredNews__element-2{   
+    width: 50%;
+    height: 600px;
+    background-image: url(/images/sustaintability.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    margin: 2px;
+}
 footer{
     grid-area: footer;
 }
